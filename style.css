@@ -1,36 +1,59 @@
 *{
     box-sizing: border-box;
+    ;
     padding: 0;
     margin: 0;
 }
 
-body{
-    background-color: rgb(223, 137, 58);
-    font-family: 'Times New Roman', Times, serif;
+div{
+    background-color: #4b6b34;
+    box-sizing: 30px;
 }
 
-main{
-    margin: 30px;
-}
-
-h1 {
+.marlboro{
+    color: #778549; 
     text-align: center;
-    color: rgb(122, 60, 16);
-    margin: 20px;
 }
 
-p {
+.chesterfield{
+    text-align: center;
+}
+
+.camel{
+    text-align: center;
     text-align: justify;
-    font-size: 17px;
-    line-height: 1.5;
-    color: rgb(219, 174, 105);
 }
 
-strong 
-{
-    color: rgb(247, 104, 9);
+.derby{
+    text-align: center;
+    text-align: justify;
 }
 
-i {
-    color: rgb(167, 97, 11);
+#foda{
+    color: rgb(147, 172, 59);
+
+}
+
+.sdf{
+    background: #c0d18d;
+    padding: 40px;
+    font-size: 25px;
+    margin: 10px
+}
+
+.fds{
+    background: rgb(115, 144, 68);
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.chesterfield{
+    padding: 20px;
+
+}
+
+.elen{
+    padding: 30px;
+    margin: 10px;
 }
