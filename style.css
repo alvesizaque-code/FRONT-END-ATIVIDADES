@@ -1,59 +1,71 @@
 *{
     box-sizing: border-box;
-    ;
-    padding: 0;
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
-div{
-    background-color: #4b6b34;
-    box-sizing: 30px;
+body{
+    background: linear-gradient(to right, #925050, #310000);
 }
 
-.marlboro{
-    color: #778549; 
+#imagem1{
+    padding: 3px;
+    width: 100%;
+    margin: 0px;
+    height: 100%;
+    background: rgb(225, 225, 225)
+}
+
+.nsei{
     text-align: center;
-}
-
-.chesterfield{
-    text-align: center;
-}
-
-.camel{
-    text-align: center;
-    text-align: justify;
-}
-
-.derby{
-    text-align: center;
-    text-align: justify;
-}
-
-#foda{
-    color: rgb(147, 172, 59);
-
-}
-
-.sdf{
-    background: #c0d18d;
-    padding: 40px;
+    height: 100%;
+    padding: 100px 0px 100px 0px;
+    background: rgb(177, 177, 177);
+    margin: 8px 10px 10px 10px;
+    color: white;
     font-size: 25px;
-    margin: 10px
 }
 
-.fds{
-    background: rgb(115, 144, 68);
-    text-align: center;
-    padding: 10px;
+#imagem2{
+    width:40%;
+    padding: 0px 0px 15px 55px;
+    margin:70px 20px 40px 0;
+}
+
+.nsei2{
+    display: inline-block;
+    padding: 0px 0px 0px 40px ;
+    width: 50%;
+    margin: 80px 0 0 0;
+    vertical-align: top;
+    color: white;
+}
+
+.final{
+    background: rgb(46, 46, 46);
+    padding: 20px 0px 20px 55px;
+    color: white;
+}
+
+.sobrenos{
+    background: rgb(177, 177, 177);
+    text-align: justify;
+    padding: 30px 30px 30px 30px;
     font-size: 20px;
+    color: white;
 }
 
-.chesterfield{
-    padding: 20px;
-
+header{
+    color: white;
+    font-size: 150%;
+    padding: 15px 0px 15px 0px;
+    text-align: center;
 }
 
-.elen{
-    padding: 30px;
-    margin: 10px;
+.banner{
+    padding: 0px 0px 0px 0px;
+}
+
+#titulo2{
+    background: linear-gradient(to right, #380000, #bd6e6e);
 }
