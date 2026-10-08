@@ -1,23 +1,42 @@
 *{
-  padding: o;
-  margin: o;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
   font-family:Montserrat;
+}
+
+header{
+  background: rgb(235, 235, 235);
+  margin:0 0;
+  padding: 15px 30px;
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.nome{
+font-size: 30px;
+font-weight: 700;
+}
+.n1{
+color:rgb(5, 92, 206);
+}
+.n2{
+  color:rgb(31, 5, 179);
+}
+
+nav{
+  display: flex;
 }
 
 li{
   display:inline-block;
   padding: 0px 20px 0px 0px;
-  font-size: 30px;
+  font-size: 22px;
   text-decoration: none;
-  color: rgb(53, 53, 255);
+  color: rgb(31, 5, 179);
   font-weight: 700;
   border: none;
   cursor: pointer;
-}
-
-nav{
-  display: inline-block;
 }
 
 .botao-login{
@@ -26,7 +45,7 @@ nav{
   width: 90px;
   height: 30px;
   transition: opacity 0.2s, transform 0.2s;;
-  background-color: rgb(64, 64, 248);
+  background-color: rgb(5, 92, 206);
   color: white;
   border: none;
   font-weight: 600;
@@ -52,13 +71,12 @@ a:hover{
   max-width: 600px;
   vertical-align: middle;
   background-color: black;
-  margin: 0 0 0 5%;
+  margin: 0 0 0 30%;
 }
 
 .text{
   display: block;
   width: 40%;
-  vertical-align: middle;
   text-align: justify;
   margin: 0 0 0 6%;
 }
@@ -113,7 +131,7 @@ footer{
   font-size: 15px;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px ){
   header{
     margin: 0px 0px 100px 0px;
     text-align: center;
@@ -128,23 +146,23 @@ footer{
 
   .botao-login{
   font-size: 16px;
-  border-radius: 20px;
-  width: 90px;
-  height: 32px;
-  color: white;
-  border: none;
+  border-radius: 20px;text-align: center;
   font-weight: 600;
 }
 
 .imagem{
   display: block;
-  width: 400px;
-
+  width: 100%;
   margin: 0 auto 0 auto;
+ 
 }
 
-text{
+.text{
   display: inline-block;
-  text-align: center;
+  vertical-align: middle;
+  margin: 0px auto 0px auto;
+  text-align: left;
+  width: 90%;
+  padding-left: 20px;
 }
 }

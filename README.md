@@ -1,3 +1,3 @@
 # FRONT-END-ATIVIDADES
 
-//perna kurta
+//bora bio receba la ele games 
