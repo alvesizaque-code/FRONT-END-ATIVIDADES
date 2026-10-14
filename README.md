@@ -1,3 +1,3 @@
 # FRONT-END-ATIVIDADES
 
-//perna kurta 2
+//perna kurta finalizando tudo fds
