@@ -7,11 +7,13 @@
 
 
 header{
-  background: rgb(235, 235, 235);
+  background: rgb(146, 167, 192);
   margin:0 0;
   padding: 15px 30px;
   display: flex;
   justify-content:space-evenly;
+  position: fixed;
+  width: 100%;
 }
 
 .nome{
@@ -130,6 +132,10 @@ footer{
   background-color: rgb(230, 230, 230);
   padding: 30px 0px 30px 0px;
   font-size: 15px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .img-dog{
@@ -137,12 +143,13 @@ footer{
   width: 300px;
   height: 250px;
   object-fit: cover;
-  margin: 80px auto 0 auto;
+  margin: 80px auto 100px auto;
   border-radius: 15px;
 }
 
 .serviços{
   text-align: center;
+  padding: 130px 0;
 }
 
 .lista-serviços{
@@ -167,7 +174,7 @@ font-weight: 500;
 }
 
 .img-card{
-  width: 70%;
+  width: 80%;
 }
 
 

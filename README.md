@@ -1,3 +1,3 @@
 # FRONT-END-ATIVIDADES
 
-//perna kurta finalizando tudo fds
+//perna kurta meu deus
