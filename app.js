@@ -7,3 +7,7 @@ console.log("retornoAPI");
 
 }
 imagemAPI()
+
+function whatsApp(){
+
+}
